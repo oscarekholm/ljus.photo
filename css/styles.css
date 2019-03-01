@@ -111,12 +111,37 @@ body {
     font-family: 'Bree Serif', serif;
     font-size: 30px;
     color: white;
+    cursor: pointer;
+    margin-bottom: 50%;
     transition: 250ms ease-in-out;
     transform: translateY(-15px);
   }
 
   .c-photo:hover .c-photo__caption {
     transform: translateY(0);
+  }
+
+  .c-photo__prices {
+    color: white;
+    transition: 500ms ease-in-out;
+    transition-delay: 250ms;
+    opacity: 0;
+  }
+
+  .c-photo:hover .c-photo__prices {
+    opacity: 1;
+  }
+
+  .c-photo__price-heading {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .c-photo__price-format {
+    color: white;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
   }
 
   .c-photo__link {
