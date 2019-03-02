@@ -20,6 +20,11 @@ body {
   margin: 0 auto 120px;
 }
 
+  .o-content--initial {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
   .o-content--centered {
     align-items: center;
     display: flex;
@@ -151,4 +156,13 @@ body {
     font-size: 11px;
     position: absolute;
     width: 100%;
+  }
+
+.c-articles-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+  .c-articles-list__item {
+    list-style: none;
   }
