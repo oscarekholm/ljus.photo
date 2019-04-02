@@ -1,17 +1,22 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'questa-sans', sans-serif;
   font-size: 20px;
   background-color: #fcfcfc;
   color: #212121;
 }
 
 .o-heading {
-  font-family: 'Bree Serif', serif;
-  font-weight: 400;
+  font-family: 'questa-sans', serif;
+  font-weight: 300;
   margin-bottom: 60px;
 }
+
   .o-heading--flush {
     margin-bottom: 0;
+  }
+
+  .o-heading--main {
+    font-weight: 500;
   }
 
 .o-content {
@@ -113,8 +118,9 @@ body {
   }
 
   .c-photo__caption {
-    font-family: 'Bree Serif', serif;
+    font-family: 'questa-sans', serif;
     font-size: 30px;
+    font-weight: 700;
     color: white;
     cursor: pointer;
     margin-bottom: 50%;
